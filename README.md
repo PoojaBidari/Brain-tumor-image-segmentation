@@ -33,3 +33,28 @@ This project implements and compares two classical image segmentation methods—
 - Intersection over Union (IoU / Jaccard Index)
 
 ## 📁 Project Structure
+├── data/brisc2025/ # Dataset
+├── results/ # All outputs
+│ ├── plot1_mean_comparison.png
+│ ├── plot2_best_worst.png
+│ ├── plot3_boxplot.png
+│ ├── plot4_scatter.png
+│ ├── plot5_line_charts.png
+│ ├── plot6_gap_analysis.png
+│ ├── full_results_with_iou.csv
+│ └── methodology_diagram.png
+├── main_segmentation.py # Main execution script
+└── requirements.txt # Dependencies
+
+
+## 🚀 How to Run
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/brain-tumor-segmentation.git
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run segmentation
+python main_segmentation.py
